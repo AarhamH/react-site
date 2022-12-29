@@ -18,8 +18,8 @@ import {SiMicrosoftexcel} from 'react-icons/si'
 const Experience = () => {
   return (
     <section id='experience'>
-      <h5>What Are My Skills?</h5>
-      <h2>My Competencies</h2>
+      <h5>Check out my</h5>
+      <h2>Skills and Competencies</h2>
 
       <div className="container competency_container">
         <div className="languages">
