@@ -1,7 +1,10 @@
 import React from 'react'
 import './about.css'
 import ME from '../../assets/profile.jpg'
+import {MdSchool} from 'react-icons/md'
 import {FaAward} from 'react-icons/fa'
+import {MdGamepad} from 'react-icons/md'
+
 
 const About = () => {
   return (
@@ -19,7 +22,7 @@ const About = () => {
         <div className="about_content">
           <div className="about_cards">
             <article className='about_card'>
-              <FaAward className='about_icon'/>
+              <MdSchool className='about_icon'/>
               <h5>Education</h5>
               <small>SFU BSc of Science in Computer Science (current)</small>
             </article>
@@ -31,7 +34,7 @@ const About = () => {
             </article>
 
             <article className='about_card'>
-              <FaAward className='about_icon'/>
+              <MdGamepad className='about_icon'/>
               <h5>Game Development</h5>
               <small>1 complete <br></br> 1 in-development</small>
             </article>
