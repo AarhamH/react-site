@@ -49,7 +49,7 @@
 }
 
 .about_icon {
-    color: var(--color-primary);
+    color: var(--color-primary-variant);
     font-size: 1.4rem;
     margin-bottom: 1rem;
 }

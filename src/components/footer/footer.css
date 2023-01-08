@@ -10,11 +10,17 @@ footer a {
     color: var(--color-bg);
 }
 
-.footer_logo {
+.logo {
+    width: 50px;
     font-size: 2rem;
     font-weight: 500;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     display: inline-block;
+    transition: var(--transition);
+}
+
+.logo:hover {
+    width: 52px;
 }
 
 .permalinks {
