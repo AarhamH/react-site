@@ -1,18 +1,24 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import './portfolio.css'
 import IMG1 from '../../assets/ball-dodger-gif.gif'
 import IMG2 from '../../assets/dungeon-crawlers.gif'
 import IMG3 from '../../assets/type-racer.gif'
+import AOS from 'aos'
+import "aos/dist/aos.css"
 
 
 const Portfolio = () => {
+  useEffect(() => {
+    AOS.init({duration: 1000});
+  }, [])
+
   return (
     <section id='portfolio'>
-      <h5>These are my</h5>
-      <h2>Projects!</h2>
+      <h5 data-aos='fade-up'>These are my</h5>
+      <h2 data-aos='fade-up'>Projects!</h2>
 
       <div className="container portfolio_container">
-        <article className='portfolio_items'>
+        <article data-aos='fade-right' className='portfolio_items'>
           <div className="portfolio_items-image">
             <img src={IMG1} alt="" />
           </div>
@@ -23,7 +29,7 @@ const Portfolio = () => {
           </div>
         </article>
 
-        <article className='portfolio_items'>
+        <article data-aos='fade-up' className='portfolio_items'>
           <div className="portfolio_items-image">
             <img src={IMG2} alt="" />
           </div>
@@ -34,7 +40,7 @@ const Portfolio = () => {
           </div>
         </article>
 
-        <article className='portfolio_items'>
+        <article data-aos='fade-left' className='portfolio_items'>
           <div className="portfolio_items-image">
             <img src={IMG3} alt="" />
           </div>

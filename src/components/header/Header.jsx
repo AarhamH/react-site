@@ -1,30 +1,33 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './header.css'
 import CTA from './CTA'
-import ME from '../../assets/me.png'
+import LOGO from '../../assets/logo-white.png'
 import HeaderSocials from './HeaderSocials'
 import Typist from 'react-typist'
+import AOS from 'aos'
+import "aos/dist/aos.css"
+
 
 const Header = () => {
+  useEffect(() => {
+    AOS.init({duration: 1000});
+  }, [])
   return (
     <header>
       <div className="container header_container">
-        <h5> Hey I'm</h5>
+        <h5><img data-aos= 'zoom-in' src={LOGO} alt="logo" /></h5>
         <div className='header_name'>
+            <h5 data-aos= 'fade-down'>Hey I'm</h5>
             <Typist cursor={{blink: true, show: true, hideWhenDone: true}}>
               <Typist.Delay ms={1000}/>
               Aarham <span>Haider</span>
             </Typist>
-
         </div>
-        <h5 className="text-light"> Developer</h5>
+        <h5 data-aos= 'fade-up' className="text-light"> Student,  Amateur Game Dev</h5>
         <CTA />
         <HeaderSocials/>
-        <div className="me">
-          <img src={ME} alt="me" />
-        </div>
-
         <a href="#contact" className='scroll_down'>Scroll Down</a>
+
       </div>
     </header>
   )

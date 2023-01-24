@@ -1,14 +1,18 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import './contact.css'
 import {MdOutlineEmail} from 'react-icons/md'
 import {RiMessengerLine} from 'react-icons/ri'
 import {SiDiscord} from 'react-icons/si'
 import { useRef } from 'react';
 import emailjs from 'emailjs-com'
-
-
+import AOS from 'aos'
+import "aos/dist/aos.css"
 
 const Contact = () => {
+  useEffect(() => {
+    AOS.init({duration: 1000});
+  }, [])
+
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -26,12 +30,12 @@ const Contact = () => {
 
   return (
     <section id='contact'>
-      <h5>Say Hi</h5>
-      <h2>Contact Me</h2>
+      <h5 data-aos='fade-up'>Say Hi</h5>
+      <h2 data-aos='fade-up'>Contact Me</h2>
 
       <div className="container contact_container">
         <div className="contact_options">
-          <article className='contact_option'>
+          <article  className='contact_option'>
             <MdOutlineEmail className='contact_option-icon'/>
             <h4>Personal Email</h4>
             <h5>aarham.haider@gmail.com</h5>

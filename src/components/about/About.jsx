@@ -1,14 +1,20 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import './about.css'
-import ME from '../../assets/profile.jpg'
+import ME from '../../assets/profile.png'
 import {MdSchool} from 'react-icons/md'
 import {FaAward} from 'react-icons/fa'
 import {MdGamepad} from 'react-icons/md'
+import AOS from 'aos'
+import "aos/dist/aos.css"
 
 
 const About = () => {
+  useEffect(() => {
+    AOS.init({duration: 1500});
+  }, [])
+
   return (
-    <section id='about'>
+    <section data-aos='fade-up' id='about'>
       <h5>Get To Know More</h5>
       <h2>About Me</h2>
 

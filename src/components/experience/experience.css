@@ -6,18 +6,13 @@
 
 .competency_container > div {
     flex: 1;
-    background-color: var(--color-bg-variant);
+    background-color: var(--color-bg);
     padding: 2.4rem 5rem;
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
 }
 
-.competency_container > div:hover {
-    background: transparent;
-    border-color: var(--color-primary-variant);
-    cursor: default;
-}
 
 .competency_container > div h3 {
     text-align: center;

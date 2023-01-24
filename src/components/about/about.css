@@ -7,24 +7,28 @@
 .about_me {
     width: 100%;
     aspect-ratio: 1/1;
-    border-radius: 2rem;
-    background: linear-gradient(45deg,transparent,
-                var(--color-primary),transparent);
-    display: gird;
-    place-items: center;
+    border-radius: 20rem;
+    border: 3px dotted var(--color-primary-variant);
+
+    background: transparent;
+    display: flex;    
+    justify-content: center;
+
+    align-items: center;
 }
 
 /*USE 500x500 image*/
 .about_me-image {
-    border-radius: 1rem;
-    width: 101%;
+    border-radius: 20rem;    
+    width: 90%;
     overflow: hidden;
-    transform: rotate(10deg);
     transition: var(--transition);
+    filter:grayscale(1);
 }
 
 .about_me-image:hover {
-    transform: rotate(0);
+    width: 95%;
+    filter:grayscale(0);
 }
 
 .about_cards {
@@ -49,7 +53,7 @@
 }
 
 .about_icon {
-    color: var(--color-primary-variant);
+    color: var(--color-primary);
     font-size: 1.4rem;
     margin-bottom: 1rem;
 }
@@ -67,6 +71,46 @@
     margin: 2rem 0 2.6rem;
     color: var(--color-light);
 }
+
+/*================== Media Queries (MEDIUM DEVICES)================*/
+@media screen and (max-width: 1024px) {
+    .about_container {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .about_me {
+        width: 50%;
+        margin: 2rem auto 4rem;
+    }
+
+    .about_content p {
+        margin: 1rem 0 1.5rem;
+    }
+}
+
+/*================== Media Queries (SMALL DEVICES)================*/
+@media screen and (max-width: 600px) {
+    .about_me {
+        width: 65%;
+        margin: 0 auto 3rem;
+    }
+
+    .about_cards {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .about_content {
+        text-align: center;
+    }
+
+    .about_content p {
+        margin: 1.5rem 0;
+    }
+    
+}
+
 
 /*================== Media Queries (MEDIUM DEVICES)================*/
 @media screen and (max-width: 1024px) {
