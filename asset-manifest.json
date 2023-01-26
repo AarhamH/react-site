@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-site/static/css/main.b8b0e570.css",
-    "main.js": "/react-site/static/js/main.9e8f3e04.js",
+    "main.js": "/react-site/static/js/main.2aac7985.js",
     "static/media/dungeon-crawlers.gif": "/react-site/static/media/dungeon-crawlers.12270d9224c3b643a776.gif",
     "static/media/ball-dodger-gif.gif": "/react-site/static/media/ball-dodger-gif.bd25190c6c8c8b0632ee.gif",
     "static/media/profile.png": "/react-site/static/media/profile.063fdbe5d6402ae9d45a.png",
@@ -12,10 +12,10 @@
     "static/media/logo-white.png": "/react-site/static/media/logo-white.d0fe5bf60751f3512595.png",
     "index.html": "/react-site/index.html",
     "main.b8b0e570.css.map": "/react-site/static/css/main.b8b0e570.css.map",
-    "main.9e8f3e04.js.map": "/react-site/static/js/main.9e8f3e04.js.map"
+    "main.2aac7985.js.map": "/react-site/static/js/main.2aac7985.js.map"
   },
   "entrypoints": [
     "static/css/main.b8b0e570.css",
-    "static/js/main.9e8f3e04.js"
+    "static/js/main.2aac7985.js"
   ]
 }
