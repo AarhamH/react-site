@@ -49,7 +49,7 @@ const About = () => {
             at Simon Fraser University, where I was able to study and develop expertise in various CS skills and conventions. I am
             also an aspiring video game developer and I have started production on two larger scale game projects during the summer of 2021.
             Recently, I gained interest in web development, particularly front-end, which has drove me to build the website before your eyes!
-            If you would like to contact me, shoot me an email or contact me through the means listed below.
+            If you would like to contact me, shoot me an email or contact me through the means listed below!
           </p>
           <a href="#contact" className='btn btn-primary'> Let's Talk</a>
         </div>
