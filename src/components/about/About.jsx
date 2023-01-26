@@ -45,9 +45,12 @@ const About = () => {
               <small>1 complete <br></br> 1 in-development</small>
             </article>
           </div>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid molestiae neque nisi facere aliquam, 
-            atque molestias, aspernatur temporibus facilis amet repellat consequuntur itaque deleniti illo, repellendus 
-            voluptate cumque veniam iure?</p>
+          <p>My name is Aarham Haider and I am interested in creating various things. I am currently a Computer Science student 
+            at Simon Fraser University, where I was able to study and develop expertise in various CS skills and conventions. I am
+            also an aspiring video game developer and I have started production on two larger scale game projects during the summer of 2021.
+            Recently, I gained interest in web development, particularly front-end, which has drove me to build the website before your eyes!
+            If you would like to contact me, shoot me an email or contact me through the means listed below.
+          </p>
           <a href="#contact" className='btn btn-primary'> Let's Talk</a>
         </div>
       </div>
