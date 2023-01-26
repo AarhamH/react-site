@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.b8b0e570.css",
-    "main.js": "/static/js/main.7543a5f1.js",
-    "static/media/dungeon-crawlers.gif": "/static/media/dungeon-crawlers.12270d9224c3b643a776.gif",
-    "static/media/ball-dodger-gif.gif": "/static/media/ball-dodger-gif.bd25190c6c8c8b0632ee.gif",
-    "static/media/profile.png": "/static/media/profile.063fdbe5d6402ae9d45a.png",
-    "static/media/Aarham_Haider_Resume.pdf": "/static/media/Aarham_Haider_Resume.1f206a8b1c0b9b818da5.pdf",
-    "static/media/type-racer.gif": "/static/media/type-racer.eb00ae68258a2f25464a.gif",
-    "static/media/logo-intro.mp4": "/static/media/logo-intro.525569d69fe6ad050709.mp4",
-    "static/media/logo-black.png": "/static/media/logo-black.98bab042e902154e50f1.png",
-    "static/media/logo-white.png": "/static/media/logo-white.d0fe5bf60751f3512595.png",
-    "index.html": "/index.html",
-    "main.b8b0e570.css.map": "/static/css/main.b8b0e570.css.map",
-    "main.7543a5f1.js.map": "/static/js/main.7543a5f1.js.map"
+    "main.css": "/react-site/static/css/main.b8b0e570.css",
+    "main.js": "/react-site/static/js/main.1b6fed15.js",
+    "static/media/dungeon-crawlers.gif": "/react-site/static/media/dungeon-crawlers.12270d9224c3b643a776.gif",
+    "static/media/ball-dodger-gif.gif": "/react-site/static/media/ball-dodger-gif.bd25190c6c8c8b0632ee.gif",
+    "static/media/profile.png": "/react-site/static/media/profile.063fdbe5d6402ae9d45a.png",
+    "static/media/Aarham_Haider_Resume.pdf": "/react-site/static/media/Aarham_Haider_Resume.1f206a8b1c0b9b818da5.pdf",
+    "static/media/type-racer.gif": "/react-site/static/media/type-racer.eb00ae68258a2f25464a.gif",
+    "static/media/logo-intro.mp4": "/react-site/static/media/logo-intro.525569d69fe6ad050709.mp4",
+    "static/media/logo-black.png": "/react-site/static/media/logo-black.98bab042e902154e50f1.png",
+    "static/media/logo-white.png": "/react-site/static/media/logo-white.d0fe5bf60751f3512595.png",
+    "index.html": "/react-site/index.html",
+    "main.b8b0e570.css.map": "/react-site/static/css/main.b8b0e570.css.map",
+    "main.1b6fed15.js.map": "/react-site/static/js/main.1b6fed15.js.map"
   },
   "entrypoints": [
     "static/css/main.b8b0e570.css",
-    "static/js/main.7543a5f1.js"
+    "static/js/main.1b6fed15.js"
   ]
 }
