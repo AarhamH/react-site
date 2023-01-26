@@ -1,25 +1,23 @@
-#load {
-    background: #000;
-    width: auto;
-    margin-top: 0px;
-    height: 1024px;
-}
 .rat video {
-    margin-top: 400px;
-    margin-left: 620px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25%;
     width: 20%;
 }
 
 /*================== Media Queries (MEDIUM DEVICES)================*/
 @media screen and (max-width: 1024px) {
-    .rat {
-        display: none;
+    .rat video {
+        margin-top: 30%;
+        width: 100%;
     }
 }
 
 /*================== Media Queries (SMALL DEVICES)================*/
 @media screen and (max-width: 600px) {
-    .rat {
-        display: none;
+    .rat video {
+        margin-top: 60%;
+        width: 100%;
     }
 }
