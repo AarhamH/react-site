@@ -36,7 +36,7 @@ const Portfolio = () => {
           <h3> Pichi Dungeon Crawlers</h3>
           <div className="portfolio_items-cta">
             <a href="https://github.com/AarhamH/pichi-dungeon-crawlers" className='btn' target='_blank'>Github</a>
-            <a className='btn btn-primary' target='_blank'>COMING SOON</a>
+            <a href="https://aarhamh.itch.io/forest-of-doom" className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
 

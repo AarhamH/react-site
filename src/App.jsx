@@ -12,6 +12,8 @@ import Footer from './components/footer/Footer'
 const App = () => {
 
   const [loading, setLoading] = useState(false);
+  const width = window.innerWidth;
+  const breakPoint = 810;
 
   useEffect(() => {
     setLoading(true);
@@ -24,7 +26,7 @@ const App = () => {
     <>
         <div className="loader-content"></div>
         {
-          loading ?
+          loading && width>breakPoint ?
             <Load
             />
           :
