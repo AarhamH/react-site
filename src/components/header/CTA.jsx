@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react'
-import CV from '../../assets/Aarham_Haider_Resume.pdf'
+import CV from '../../assets/Aarham-Haider-Resume.pdf'
 import AOS from 'aos'
 import "aos/dist/aos.css"
 
