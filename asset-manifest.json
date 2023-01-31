@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-site/static/css/main.b8b0e570.css",
-    "main.js": "/react-site/static/js/main.fd54e3c8.js",
+    "main.css": "/react-site/static/css/main.c5137218.css",
+    "main.js": "/react-site/static/js/main.6d00698b.js",
     "static/media/dungeon-crawlers.gif": "/react-site/static/media/dungeon-crawlers.2845820db057d5d0a708.gif",
     "static/media/ball-dodger-gif.gif": "/react-site/static/media/ball-dodger-gif.bd25190c6c8c8b0632ee.gif",
     "static/media/profile.png": "/react-site/static/media/profile.063fdbe5d6402ae9d45a.png",
@@ -11,11 +11,11 @@
     "static/media/logo-black.png": "/react-site/static/media/logo-black.98bab042e902154e50f1.png",
     "static/media/logo-white.png": "/react-site/static/media/logo-white.d0fe5bf60751f3512595.png",
     "index.html": "/react-site/index.html",
-    "main.b8b0e570.css.map": "/react-site/static/css/main.b8b0e570.css.map",
-    "main.fd54e3c8.js.map": "/react-site/static/js/main.fd54e3c8.js.map"
+    "main.c5137218.css.map": "/react-site/static/css/main.c5137218.css.map",
+    "main.6d00698b.js.map": "/react-site/static/js/main.6d00698b.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8b0e570.css",
-    "static/js/main.fd54e3c8.js"
+    "static/css/main.c5137218.css",
+    "static/js/main.6d00698b.js"
   ]
 }
