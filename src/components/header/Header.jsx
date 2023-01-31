@@ -26,7 +26,7 @@ const Header = () => {
         <h5 data-aos= 'fade-up' className="text-light"> Student,  Amateur Game Dev</h5>
         <CTA />
         <HeaderSocials/>
-        <a href="#contact" className='scroll_down'>Scroll Down</a>
+        <a href="mailto:aah13@sfu.ca" className='scroll_down'>aarham.haider@gmail.com</a>
 
       </div>
     </header>

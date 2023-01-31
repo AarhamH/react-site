@@ -55,20 +55,38 @@ header {
     background: var(--color-primary);
 }
 
+.header_socials::before {
+    content: '';
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+}
+
 /*===============SCROLL DOWN==================*/
 .scroll_down {
     position: absolute;
     right: -2.3rem;
-    bottom: 5rem;
+    bottom: 7rem;
     transform: rotate(90deg);
-    font-weight: 300;
+    font-weight: 100;
     font-size: 0.9rem;
+}
+
+.scroll_down::before {
+    content: '';
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
 }
 
 /*================== Media Queries (MEDIUM DEVICES)================*/
 @media screen and (max-width: 1024px) {
     header {
         height: 68vh;
+    }
+
+    .header_container img {
+        width: 4%;
     }
 }
 
@@ -80,6 +98,10 @@ header {
 
     .header_socials, .scroll_down {
         display: none;
+    }
+
+    .header_container img {
+        width: 7%;
     }
     
 }

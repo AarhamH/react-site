@@ -1,9 +1,6 @@
 import React, {useEffect} from 'react'
 import './about.css'
 import ME from '../../assets/profile.png'
-import {MdSchool} from 'react-icons/md'
-import {FaAward} from 'react-icons/fa'
-import {MdGamepad} from 'react-icons/md'
 import AOS from 'aos'
 import "aos/dist/aos.css"
 
@@ -26,13 +23,14 @@ const About = () => {
         </div>
 
         <div className="about_content">
+          {/*
           <div className="about_cards">
             <article className='about_card'>
               <MdSchool className='about_icon'/>
               <h5>Education</h5>
               <small>SFU BSc of Science in Computer Science (current)</small>
             </article>
-
+        
             <article className='about_card'>
               <FaAward className='about_icon'/>
               <h5>Experience</h5>
@@ -45,13 +43,43 @@ const About = () => {
               <small>1 complete <br></br> 1 in-development</small>
             </article>
           </div>
+        */}
           <p>My name is Aarham Haider and I am interested in creating various things. I am currently a Computer Science student 
             at Simon Fraser University, where I was able to study and develop expertise in various CS skills and conventions. I am
             also an aspiring video game developer and I have started production on two larger scale game projects during the summer of 2021.
-            Recently, I gained interest in web development, particularly front-end, which has drove me to build the website before your eyes!
+            Recently, I gained interest in web development, which has drove me to build the website before your eyes!
             If you would like to contact me, shoot me an email or contact me through the means listed below!
           </p>
-          <a href="#contact" className='btn btn-primary'> Let's Talk</a>
+          
+          <div className='list-type'>
+            <div className='list'>
+              Education
+              <ul>
+                <li>Simon Fraser University</li>
+              </ul>
+            </div>
+          </div>
+
+          <div className='list-type'>
+            <div className='list'>
+              Dev Interests
+              <ul>
+                <li>Game Development</li>
+                <li>Web Development</li>  
+              </ul>
+            </div>
+          </div>
+
+          <div className='list-type'>
+            <div className='list'>
+              Hobbies
+              <ul>
+                <li>Playing the piano</li>  
+                <li>Painting</li>
+                <li>Watching Sports</li>  
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </section>

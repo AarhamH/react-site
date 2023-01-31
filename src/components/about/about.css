@@ -5,6 +5,7 @@
 }
 
 .about_me {
+    margin-left:3rem;
     width: 100%;
     aspect-ratio: 1/1;
     border-radius: 20rem;
@@ -68,9 +69,39 @@
 }
 
 .about_content p {
-    margin: 2rem 0 2.6rem;
+    margin: 1rem 0 2.2rem;
+    margin-right: 5rem;
     color: var(--color-light);
 }
+
+.list-type{
+    clear: all;
+}
+
+.list{
+    font-size: 1 rem;
+    width: 25%;
+    float: left;
+    color: var(--color-primary-variant);
+}
+
+.list ul {
+    font-size: 0.7rem;
+    color: var(--color-light);
+}
+
+.list ul li{
+    font-size: 0.7rem;
+    color: var(--color-light);
+}
+
+.list ul li::before{
+    content: "‣ ";
+    font-size: 1rem;
+    color: var(--color-primary-variant);
+}
+
+
 
 
 

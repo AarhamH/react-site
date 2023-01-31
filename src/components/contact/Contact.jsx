@@ -35,32 +35,28 @@ const Contact = () => {
 
       <div className="container contact_container">
         <div className="contact_options">
-          <article  className='contact_option'>
-            <MdOutlineEmail className='contact_option-icon'/>
+          <article data-aos= 'fade-in' className='contact_option'>
+            <MdOutlineEmail className='contact_option-icon' />
             <h4>Personal Email</h4>
-            <h5>aarham.haider@gmail.com</h5>
-            <a href="mailto:aarham.haider@gmail.com">Send A Message</a>
+            <a href="mailto:aarham.haider@gmail.com"><h3>aarham.haider@gmail.com</h3></a>
           </article>
 
-          <article className='contact_option'>
+          <article data-aos= 'fade-in' className='contact_option'>
             <MdOutlineEmail className='contact_option-icon'/>
             <h4>SFU Email</h4>
-            <h5>aah13@sfu.ca</h5>
-            <a href="mailto:aah13@sfu.ca">Send A Message</a>
+            <a href="mailto:aah13@sfu.ca"><h3>aah13@sfu.ca</h3></a>
           </article>
 
-          <article className='contact_option'>
+          <article data-aos= 'fade-in' className='contact_option'>
             <RiMessengerLine className='contact_option-icon'/>
             <h4>Messenger</h4>
-            <h5>Aarham Haider</h5>
-            <a href="https://m.me/aarham.haider">Send A Message</a>
+            <a href="https://m.me/aarham.haider"><h3>Aarham Haider</h3></a>
           </article>
 
-          <article className='contact_option'>
+          <article data-aos= 'fade-in' className='contact_option'>
             <SiDiscord className='contact_option-icon'/>
             <h4>Discord</h4>
-            <h5>crazy_cactus_99#9783</h5>
-            <a href="https://discordapp.com/users/138048010373431297">Add Me</a>
+            <a href="https://discordapp.com/users/138048010373431297"><h3>crazy_cactus_99#9783</h3></a>
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>

@@ -33,7 +33,7 @@ const Portfolio = () => {
           <div className="portfolio_items-image">
             <img src={IMG2} alt="" />
           </div>
-          <h3> Pichi Dungeon Crawlers</h3>
+          <h3> Forest of Doom</h3>
           <div className="portfolio_items-cta">
             <a href="https://github.com/AarhamH/pichi-dungeon-crawlers" className='btn' target='_blank'>Github</a>
             <a href="https://aarhamh.itch.io/forest-of-doom" className='btn btn-primary' target='_blank'>Live Demo</a>
