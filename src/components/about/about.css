@@ -141,5 +141,15 @@
     .about_content p {
         margin: 1.5rem 0;
     }
+
+    .list{
+        margin-left: 20px;
+        margin-right: 11px;
+
+    }
+
+    .list ul li {
+        text-align: start;
+    }
     
 }

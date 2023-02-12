@@ -30,33 +30,35 @@ const About = () => {
             If you would like to contact me, shoot me an email or contact me through the means listed below!
           </p>
           
-          <div className='list-type'>
-            <div className='list'>
-              Education
-              <ul>
-                <li>Simon Fraser University</li>
-              </ul>
+          <div className='list-total'>
+            <div className='list-type'>
+              <div className='list'>
+                Education
+                <ul>
+                  <li>Simon Fraser University</li>
+                </ul>
+              </div>
             </div>
-          </div>
 
-          <div className='list-type'>
-            <div className='list'>
-              Dev Interests
-              <ul>
-                <li>Game Development</li>
-                <li>Web Development</li>  
-              </ul>
+            <div className='list-type'>
+              <div className='list'>
+                Dev Interests
+                <ul>
+                  <li>Game Development</li>
+                  <li>Web Development</li>  
+                </ul>
+              </div>
             </div>
-          </div>
 
-          <div className='list-type'>
-            <div className='list'>
-              Hobbies
-              <ul>
-                <li>Playing the piano</li>  
-                <li>Painting</li>
-                <li>Watching Sports</li>  
-              </ul>
+            <div className='list-type'>
+              <div className='list'>
+                Hobbies
+                <ul>
+                  <li>Playing the piano</li>  
+                  <li>Painting</li>
+                  <li>Watching Sports</li>  
+                </ul>
+              </div>
             </div>
           </div>
         </div>
