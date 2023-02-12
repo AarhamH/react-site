@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/react-site/static/css/main.c5137218.css",
-    "main.js": "/react-site/static/js/main.b117a8fe.js",
+    "main.css": "/react-site/static/css/main.886eec7b.css",
+    "main.js": "/react-site/static/js/main.c4549358.js",
     "static/media/dungeon-crawlers.gif": "/react-site/static/media/dungeon-crawlers.2845820db057d5d0a708.gif",
     "static/media/ball-dodger-gif.gif": "/react-site/static/media/ball-dodger-gif.bd25190c6c8c8b0632ee.gif",
     "static/media/profile.png": "/react-site/static/media/profile.063fdbe5d6402ae9d45a.png",
     "static/media/type-racer.gif": "/react-site/static/media/type-racer.eb00ae68258a2f25464a.gif",
     "static/media/logo-intro.mp4": "/react-site/static/media/logo-intro.525569d69fe6ad050709.mp4",
-    "static/media/Aarham-Haider-Resume.pdf": "/react-site/static/media/Aarham-Haider-Resume.c9b71a8bc21b9bc01665.pdf",
+    "static/media/Aarham-Haider-Resume.pdf": "/react-site/static/media/Aarham-Haider-Resume.cc8e21f9551223245981.pdf",
     "static/media/logo-black.png": "/react-site/static/media/logo-black.98bab042e902154e50f1.png",
     "static/media/logo-white.png": "/react-site/static/media/logo-white.d0fe5bf60751f3512595.png",
     "index.html": "/react-site/index.html",
-    "main.c5137218.css.map": "/react-site/static/css/main.c5137218.css.map",
-    "main.b117a8fe.js.map": "/react-site/static/js/main.b117a8fe.js.map"
+    "main.886eec7b.css.map": "/react-site/static/css/main.886eec7b.css.map",
+    "main.c4549358.js.map": "/react-site/static/js/main.c4549358.js.map"
   },
   "entrypoints": [
-    "static/css/main.c5137218.css",
-    "static/js/main.b117a8fe.js"
+    "static/css/main.886eec7b.css",
+    "static/js/main.c4549358.js"
   ]
 }
