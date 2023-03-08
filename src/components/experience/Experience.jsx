@@ -11,8 +11,10 @@ import {SiUnity} from 'react-icons/si'
 import {SiGodotengine} from 'react-icons/si'
 import {SiReact} from 'react-icons/si'
 import {SiNodedotjs} from 'react-icons/si'
-import {AiOutlineConsoleSql} from 'react-icons/ai'
+import {GrMysql} from 'react-icons/gr'
 import {SiMicrosoftexcel} from 'react-icons/si'
+import {FaJava} from 'react-icons/fa'
+import {SiDotnet} from 'react-icons/si'
 import AOS from 'aos'
 import "aos/dist/aos.css"
 
@@ -56,10 +58,18 @@ const Experience = () => {
             </article>
 
             <article data-aos='fade-right' className='competency_details'>
+              <FaJava className='competency_details-icon'/>
+              <div>
+                <h4>Java</h4>
+                <small className='text-light'>Basic</small>
+              </div>  
+            </article>
+
+            <article data-aos='fade-right' className='competency_details'>
               <SiPython className='competency_details-icon'/>
               <div>
                 <h4>Python</h4>
-                <small className='text-light'>Basic</small>
+                <small className='text-light'>Experienced</small>
               </div>
 
             </article>
@@ -68,7 +78,7 @@ const Experience = () => {
               <SiHtml5 className='competency_details-icon'/>
               <div>
                 <h4>HTML</h4>
-                <small className='text-light'>Basic</small>
+                <small className='text-light'>Intermediate</small>
               </div>
             </article>
 
@@ -76,7 +86,7 @@ const Experience = () => {
               <SiCss3 className='competency_details-icon'/>
               <div>
                 <h4>CSS</h4>
-                <small className='text-light'>Basic</small>
+                <small className='text-light'>Intermediate</small>
               </div>
 
             </article>
@@ -85,7 +95,7 @@ const Experience = () => {
               <SiJavascript className='competency_details-icon'/>
               <div>
                 <h4>JavaScript</h4>
-                <small className='text-light'>Basic</small>
+                <small className='text-light'>Intermediate</small>
               </div>
 
             </article>
@@ -115,7 +125,7 @@ const Experience = () => {
               <SiReact className='competency_details-icon'/>
               <div>
                 <h4>React</h4>
-                <small className='text-light'>Basic</small>
+                <small className='text-light'>Intermediate</small>
               </div>
             </article>
 
@@ -125,8 +135,16 @@ const Experience = () => {
                 <h4>Node.js</h4>
                 <small className='text-light'>Basic</small>
               </div>
-
             </article>
+
+            <article data-aos='fade-right' className='competency_details'>
+              <SiDotnet className='competency_details-icon'/>
+              <div>
+                <h4>.NET</h4>
+                <small className='text-light'>Basic</small>
+              </div>
+            </article>   
+
           </div>
         </div>
 
@@ -134,9 +152,9 @@ const Experience = () => {
           <h3 data-aos='fade'>Data Bases</h3>
           <div className="competency_content">
             <article data-aos='fade-right' className='competency_details'>
-              <AiOutlineConsoleSql className='competency_details-icon'/>
+              <GrMysql className='competency_details-icon'/>
               <div>
-                <h4>SQL</h4>
+                <h4>MySQL</h4>
                 <small className='text-light'>Basic</small>
               </div>
 
